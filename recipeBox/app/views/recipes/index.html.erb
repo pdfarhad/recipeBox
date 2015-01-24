@@ -1,0 +1,6 @@
+This is the index of all the recipes
+
+<br>
+<%= @recipe.each do |recipe| %>
+<h2> <%= link_to recipe.title , recipe %></h2>
+<% end %>
