@@ -50,8 +50,6 @@ GEM
     autoprefixer-rails (5.0.0.3)
       execjs
       json
-    binding_of_caller (0.7.2)
-      debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.3)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -60,6 +58,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.5)
       climate_control (>= 0.0.3, < 1.0)
+    cocoon (1.2.6)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -67,14 +66,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    columnize (0.9.0)
-    debug_inspector (0.0.2)
-    debugger (1.6.8)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.5)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.8)
     erubis (2.7.0)
     execjs (2.2.2)
     globalid (0.3.0)
@@ -142,7 +133,6 @@ GEM
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
-    spring (1.2.0)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -163,19 +153,14 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (2.0.0)
-      activemodel (~> 4.0)
-      binding_of_caller (>= 0.7.2)
-      railties (~> 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
+  cocoon (~> 1.2.6)
   coffee-rails (~> 4.1.0)
-  debugger
   jbuilder (~> 2.0)
   jquery-rails
   paperclip!
@@ -183,8 +168,6 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   simple_form
-  spring
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
-  web-console (~> 2.0)
